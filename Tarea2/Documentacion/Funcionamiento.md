@@ -67,7 +67,7 @@ En este caso se usa esa estructura para hacer mención a la tarea.
 
 El comando deberia mostrar algo como esto:
 
-<img src="Imagenes/intro.png" width="600" height="400">
+<img src="../ImagnesAN/ImageDocker.png" width="700" height="400">
 
 ### PASO 3 - LEVANTAR EL CONTENEDOR:
 
@@ -90,5 +90,5 @@ que hace referencia al id del contenedor.
 
 Vamos a visualizar que en el puerto 80 local, y debe aparecer nuestro proyecto de angular listo para usarse.
 
-<img src="Imagenes/intro.png" width="600" height="400">
+<img src="../ImagnesAN/MyInfo.png" width="700" height="400">
 
