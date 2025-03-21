@@ -1,0 +1,23 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MisDatos</title>
+</head>
+<body>
+
+    <div style="text-align: center; margin-top: 20%; font-family: arial;">
+        <h1 style="color: black; font-family: fantasy;">Ver Mis Datos</h1>
+        <button (click)="mostrarInfo()">Mostrar Información</button>
+        <div *ngIf="infoVisible">
+          <p><strong>Nombre:</strong> Kevin Del Cid</p>
+          <p><strong>Carnet:</strong> 202103252</p>
+          <p><strong>Curso:</strong> Laboratorio Analisis y diseño de sistemas 1</p>
+        </div>
+      </div>
+</body>
+</html>
